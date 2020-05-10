@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Como Crear Notaciones Matemáticas en HTML 5</title>
+
+    <link rel="icon" href="https://nubecolectiva.com/favicon.ico">
+
+    <style type="text/css">
+    	.minotacionmatematica1, .minotacionmatematica2, .minotacionmatematica3, .minotacionmatematica4 {
+    		font-size: 30px;
+    		margin-top: 30px;
+    		margin-bottom: 30px;
+    	}
+
+    	body {
+    		text-align: center; 
+    	}
+    </style>
+
+  </head>
+
+<body> 
+	
+	<h1>Como Crear Notaciones Matemáticas en HTML 5 </h1> 
+
+		<div class="minotacionmatematica1"> 
+
+			<math>
+			    <mrow>
+			      <mrow>
+			        <msup>
+			          <mi>a</mi>
+			          <mn>3</mn>
+			        </msup>
+			        <mo>+</mo>
+			        <msup>
+			          <mi>b</mi>
+			          <mn>4</mn>
+			        </msup>
+			      </mrow>
+			      <mo>=</mo>
+			      <msup>
+			        <mi>c</mi>
+			        <mn>5</mn>
+			      </msup>
+			    </mrow>
+			</math>
+
+		</div> 
+
+
+		<div class="minotacionmatematica2"> 
+
+			<math> 
+	            <mfrac bevelled="true"> 
+	                <mfrac> 
+	                    <msup> 
+	                        <mi>3x</mi> 
+	                        <mn>2</mn> 
+	                    </msup> 
+	                    <msup> 
+	                        <mi>5y</mi> 
+	                        <mn>2</mn> 
+	                    </msup> 
+	                </mfrac> 
+	                <mfrac> 
+	                    <msup> 
+	                        <mi>b</mi> 
+	                        <mn>3</mn> 
+	                    </msup> 
+	                    <msup> 
+	                        <mi>c</mi> 
+	                        <mn>3</mn> 
+	                    </msup> 
+	                </mfrac> 
+	            </mfrac> 
+	        </math> 
+
+		</div>
+
+
+		<div class="minotacionmatematica3"> 
+
+			<math> 
+		        <math> 
+		            <menclose notation="radical"> 
+		                <mrow> 
+		                    <mi> a </mi> 
+		                    <mo> + </mo> 
+		                    <mi> b </mi> 
+		                </mrow> 
+		            </menclose> 
+		            <mi>=</mi> 
+		            <menclose notation="radical"> 
+		                <mi>c</mi> 
+		            </menclose> 
+		        </math> 
+		    </math>			
+
+		</div> 
+		
+
+		<div class="minotacionmatematica4"> 
+
+			<p>
+				 \[x = {-x \pm \sqrt{a^3-5yz} \over 3a}\]
+			</p>		
+
+		</div>
+		
+		
+	<script src="js/polyfill.min.js?features=es6"></script> 
+  	<script id="MathJax-script" async src="js/tex-mml-chtml.js"></script> 
+
+	</body> 
+
+</html> 
